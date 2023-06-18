@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
- * Discription: 'The last digit'
+ * main -  prints the last digit of a randomly generated number
+ * And whether its greater than 5, less than 6, or 0.
  * Return: Alaways (0) (Success)
  */
 int main(void)
