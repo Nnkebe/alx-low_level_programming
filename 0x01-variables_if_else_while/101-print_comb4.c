@@ -14,19 +14,20 @@ int main(void)
 		{
 			for (k = 50; k < 58; k++)
 			{
-
-			if (m > n)
-			{
-				putchar(n);
-				putchar(m);
-				putchar(k);
-
-				if (n != 55 || m != 56 || k != 57)
+				if (k > m && m > n)
 				{
-				putchar(',');
-				putchar(' ');
+					putchar(n);
+					putchar(m);
+					putchar(k);
+
+					if (n != 55 || m != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
+
 		}
 	}
 	putchar('\n');
