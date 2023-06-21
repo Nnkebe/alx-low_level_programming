@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the 1st 52 Fibonacci numbers
- * Return: nothing
+ * main - prints the first 52 Fibonacci numbers
+ * Return: (0)
  */
 
 int main(void)
