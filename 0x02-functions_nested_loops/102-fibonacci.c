@@ -12,7 +12,7 @@ int main(void)
 
 	printf("%ld, %ld", j, k);
 
-	while (i < 50)
+	for (i < 50)
 	{
 		k = j + k;
 		j = k - j;
