@@ -14,6 +14,9 @@ int main(void)
 
 	for (count = 0; count < 50; count++)
 	{
+		if (count != 0)
+			printf(",");
+
 		sum = f1 + f2;
 		printf("%lu", sum);
 
