@@ -14,10 +14,10 @@ int main(void)
 
 	while (i < 50)
 	{
-	k = j + k;
-	j = k - j;
-	printf(", %ld", k);
-	++i;
+		k = j + k;
+		j = k - j;
+		printf(", %ld", k);
+		++i;
 	}
 	printf("\n");
 	return (0);
