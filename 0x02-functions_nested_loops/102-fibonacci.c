@@ -23,8 +23,7 @@ int main(void)
 		f1 = f2;
 		f2 = sum;
 
-		if (count == 49)
-			printf("\n");
 	}
+	Printf('\n');
 	return (0);
 }
