@@ -5,7 +5,7 @@
  * main - entry point
  *
  * Description: prints the numbers from 1 - 100, ('\n')
- * fizz for multiples of 3, buzz for multiples of 5
+ * Fizz for multiples of 3, Buzz for multiples of 5
  * and FizzBuzz for multiples of both
  *
  * Return: 0
@@ -26,7 +26,7 @@ int main(void)
 		else
 			printf("%i", i);
 		if (i < 100)
-			printf(" ");
+			printf("  ");
 	}
 	printf("\n");
 	return (0);
