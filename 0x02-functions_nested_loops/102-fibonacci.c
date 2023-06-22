@@ -2,9 +2,8 @@
 
 /**
  * main - prints the first 50 Fibonacci numbers
- * starting with 1 and 2,
- * separated by comma followed by spasce
- * Return: 0 (Succus)
+ * starting with 1 and 2, follwed by new line
+ * Return: 0 (Succuss)
  */
 
 int main(void)
@@ -23,7 +22,7 @@ int main(void)
 		if (count == 49)
 			printf("\n");
 		else
-			printf(",");
+			printf(", ");
 	}
 
 	return (0);
