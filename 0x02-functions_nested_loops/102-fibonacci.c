@@ -4,7 +4,7 @@
  * main - prints the first 50 Fibonacci numbers
  * starting with 1 and 2,
  * separated by comma followed by spasce
- * Return: (0)
+ * Return: 0 (Succus)
  */
 
 int main(void)
@@ -14,16 +14,17 @@ int main(void)
 
 	for (count = 0; count < 50; count++)
 	{
-		if (count != 0)
-			printf(",");
-
 		sum = f1 + f2;
 		printf("%lu", sum);
 
 		f1 = f2;
 		f2 = sum;
 
+		if (count == 49)
+			printf("\n");
+		else
+			printf(",");
 	}
-	Printf('\n');
+
 	return (0);
 }
