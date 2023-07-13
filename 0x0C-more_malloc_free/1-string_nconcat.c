@@ -2,18 +2,18 @@
 #include <stdlib.h>
 
 /**
- * String_nconcat - function that concatenates n bytes of a string to another.
- * s1: String to be append to
- * S2: String to concatenate from
- * @n: number of bytes from s2 to concatenate to s1
+ * string_nconcat -  concatenates n bytes of a string to another.
+ * @s1: first string
+ * @s2: second string
+ * @n: number of bytes
  *
  * Return: pointer to the resulting string
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int i = 0, j = 0, k = 0, l = 0;
 	char *str;
+	unsigned int i = 0, j = 0, k = 0, l = 0;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -39,7 +39,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (j < l)
 	{
 		if (j <= i)
-		str[j] = s1[j];
+			str[j] = s1[j];
 
 		if (j >= i)
 		{
@@ -51,5 +51,3 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	str[j] = '\0';
 	return (str);
 }
-
-
