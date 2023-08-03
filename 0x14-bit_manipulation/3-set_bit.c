@@ -2,7 +2,7 @@
 
 /**
  * set_bit - sets the value of a bit to 1 at a given index.
- *
+ * @index: This is the index of the bit to be set to one.
  * @n: The pointer to the number needing change.
  *
  * Return:1 on (success) and -1 on failure.
